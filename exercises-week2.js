@@ -26,7 +26,7 @@ console.log(title.toUpperCase());
 console.log(title.length);
 console.log(capitalizedString);
 
-//Exercises 3 
+//Exercises 3 ✅
 
 //You go to the supermarket. Create variables for:
 
@@ -49,3 +49,24 @@ console.log("\n--- Exercise 3 ---")
 console.log(`Total: ${totalcost}`) //Total cost
 console.log(`After 10% discount: ${afterdiscount}`) //Total cost with 10% discount 
 console.log(`Change from €20 ${changeback}`) //Change from 20 Euro
+
+//Exercises 4
+
+const exe4a = 47 
+const evenodd = exe4a % 2 === 0 ? "even" : "odd";
+
+const exe4b = 100
+const exe4c = 7 
+const remainder = exe4b % exe4c
+
+const eggstotal = 53
+const eggsbox = 12
+
+const boxes =  Math.floor(eggstotal / eggsbox)
+const eggsleft = eggstotal - boxes * eggsbox
+
+
+console.log("\n--- Exercise 4 ---")
+console.log(`${exe4a} is ${evenodd}`) 
+console.log(`100 divided by 7 has remainder: ${remainder}`)
+console.log(`Full boxes: ${boxes}, Eggs left over: ${eggsleft}`)
