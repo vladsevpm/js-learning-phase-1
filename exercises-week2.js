@@ -50,7 +50,7 @@ console.log(`Total: ${totalcost}`) //Total cost
 console.log(`After 10% discount: ${afterdiscount}`) //Total cost with 10% discount 
 console.log(`Change from €20 ${changeback}`) //Change from 20 Euro
 
-//Exercises 4
+//Exercises 4 ✅
 
 const exe4a = 47 
 const evenodd = exe4a % 2 === 0 ? "even" : "odd";
@@ -70,3 +70,19 @@ console.log("\n--- Exercise 4 ---")
 console.log(`${exe4a} is ${evenodd}`) 
 console.log(`100 divided by 7 has remainder: ${remainder}`)
 console.log(`Full boxes: ${boxes}, Eggs left over: ${eggsleft}`)
+
+
+//Exercises 5  
+
+const exe5a = "Vlad"
+const exe5b = 13;
+const exe5c = true;
+const exe5d = null;
+let exe5e;
+
+console.log("\n--- Exercise 5 ---")
+console.log(exe5a, "→ type:", typeof exe5a)
+console.log(exe5b, "→ type:", typeof exe5b)
+console.log(exe5c, "→ type:", typeof exe5c)
+console.log(exe5d, "→ type:", typeof exe5d)
+console.log(exe5e, "→ type:", typeof exe5e)
