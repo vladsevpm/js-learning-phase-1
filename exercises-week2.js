@@ -104,7 +104,7 @@ console.log(exe6b,"°C = ", exe6btof,"°F")
 console.log(exe6c,"°C = ", exe6ctoc,"°F")
 
 
-//Exercises 7 
+//Exercises 7 ✅
 
 const email = "superpupermail@gmail.com";
 
@@ -114,3 +114,19 @@ console.log("Ends with .com:", email.endsWith(".com"))
 console.log("characters long is it:", email.length)
 console.log("character at position 0:", email[0])
 console.log("character at position 9:", email[9])
+
+
+//Exercises 8  — Build a Receipt
+
+const coffee = 2.50;
+const sandwich = 4.80;
+const water = 0.90;
+
+const subtotal = coffee + sandwich + water
+const tax = subtotal * 0.23
+const total = subtotal + tax
+
+
+console.log("\n--- Exercise 8 ---")
+console.log("\n===== MY SHOP =====", "\nCoffee      €",coffee.toFixed(2), "\nSandwich    €",sandwich.toFixed(2), "\nWater       €",water.toFixed(2), "\n-------------------", "\nSubtotal:   €",subtotal.toFixed(2), "\nTax (23%):  €",tax.toFixed(2), "\nTOTAL:      €",total.toFixed(2), "\n===================")
+
