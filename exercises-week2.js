@@ -6,7 +6,7 @@ const city = "Kyiv"
 
 const message = `Hi, my name is ${name} ${surname} and I live in ${city}.`
 
-console.log("--- Exercise 1 ---");
+console.log("\n--- Exercise 1 ---");
 console.log(message);
 
 //Exercises 2 ✅
@@ -72,7 +72,7 @@ console.log(`100 divided by 7 has remainder: ${remainder}`)
 console.log(`Full boxes: ${boxes}, Eggs left over: ${eggsleft}`)
 
 
-//Exercises 5  
+//Exercises 5  ✅
 
 const exe5a = "Vlad"
 const exe5b = 13;
@@ -86,3 +86,31 @@ console.log(exe5b, "→ type:", typeof exe5b)
 console.log(exe5c, "→ type:", typeof exe5c)
 console.log(exe5d, "→ type:", typeof exe5d)
 console.log(exe5e, "→ type:", typeof exe5e)
+
+//Exercises 6  ✅
+
+
+const exe6a = 0 // °C
+const exe6b = 100 // °C
+const exe6c = 98.6 // °F
+
+const exe6atof = Math.round((exe6a * 9/5) + 32)
+const exe6btof = Math.round((exe6b * 9/5) + 32)
+const exe6ctoc = Math.round((exe6c- 32) * 5/9)
+
+console.log("\n--- Exercise 6 ---")
+console.log(exe6a,"°C = ", exe6atof,"°F")
+console.log(exe6b,"°C = ", exe6btof,"°F")
+console.log(exe6c,"°C = ", exe6ctoc,"°F")
+
+
+//Exercises 7 
+
+const email = "superpupermail@gmail.com";
+
+console.log("\n--- Exercise 7 ---")
+console.log('Contain "@":', email.includes("@"))
+console.log("Ends with .com:", email.endsWith(".com"))
+console.log("characters long is it:", email.length)
+console.log("character at position 0:", email[0])
+console.log("character at position 9:", email[9])
